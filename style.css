@@ -1,0 +1,24 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.inner
+{
+    text-align: center;
+}
+input[type=text],[type=password]
+{
+    text-align: center;
+border: red 2px dashed;
+margin: 2px;
+}
+input[type=submit]
+{
+    padding: 8px;
+}
+input:hover[type=submit]
+{
+    background-color: red;
+    cursor: hand;
+}
